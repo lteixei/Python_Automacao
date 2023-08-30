@@ -1,0 +1,13 @@
+utils\DataBaseUtils.class
+pages\LoginPage.class
+core\BasePage.class
+core\BaseTest.class
+pages\Cenarios_E_Commerce_Page.class
+utils\ReadUtils.class
+core\DriverFactory.class
+core\Propriedades.class
+core\Propriedades$Browsers.class
+tests\Testando_Test.class
+utils\GeraCpfCnpj.class
+core\DriverFactory$1.class
+utils\DataUtils.class
