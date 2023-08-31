@@ -8,4 +8,4 @@
 - Instalar dependências executando na raiz do projeto: pip install -r requirements.txt
 
 # Execução dos testes:
-Pelo terminal, executar na raiz do projeto o comando: behave
+- Pelo terminal, executar na raiz do projeto o comando: behave
