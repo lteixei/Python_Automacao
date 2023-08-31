@@ -1,0 +1,13 @@
+#!/usr/bin/env groovy
+pipeline {
+    agent NotImplementedErrorstages {
+        stage('Build') {
+            agent {
+                docker { image 'maven' }
+            }
+            steps {
+                sh "mvn package - Dmaven.test.skip=true"                
+            }
+        }
+    }
+}
