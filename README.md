@@ -9,5 +9,4 @@
 
 # Execução dos testes:
 
-- Pelo terminal, executar na raiz do projeto o comando: python basico_selenium.py
-- basico_selenium.py é o nome do seu teste.
+- Pelo terminal, executar na raiz do projeto o comando: behave

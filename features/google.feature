@@ -1,12 +1,6 @@
-# language: pt
+Feature: Realizar pesquisa no Google
 
-Funcionalidade: realizar pesquisa no Google
-  
-  # Contexto são ações que serão executadas antes de cada cenário.
-  Contexto: acessar página de teste
+  Cenário: Acessar Google
     Dado que acesso a página do Google
-
-  Cenário: acessar página do Google e realizar pesquisa
-    Dado que preencho o campo de pesquisa com Python
-    Quando clico no botão de pesquisar
+    Quando preencho o campo de pesquisa com "Python"
     Então devo visualizar os resultados
