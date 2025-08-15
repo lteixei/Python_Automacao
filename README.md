@@ -35,16 +35,15 @@ source venv/bin/activate
 ---
 
 ## 🚀 Como Executar o Projeto  
-# 1 - Clonar o repositório  
+1 - Clonar o repositório  
 git clone https://github.com/seu-usuario/seu-repo.git  
 cd seu-repo  
 
-# 2 - Instalar dependências  
+2 - Instalar dependências  
 pip install -r requirements.txt  
 
-# 3 - Executar um exemplo de automação  
+3 - Executar um exemplo de automação  
 python src/exemplo_automacao.py  
-```
 
 ---
 
