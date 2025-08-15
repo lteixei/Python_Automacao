@@ -72,16 +72,6 @@ python src/exemplo_automacao.py
 
 ---
 
-## ✅ Sugestões de Evolução  
-
-Feature	Status  
-Docker para execução isolada	🔧 Em andamento  
-Integração com CI/CD	🔧 Em andamento  
-Notificações via Slack/Teams em caso de erro	✅ Disponível  
-Execução paralela de scripts	🔧 Em estudo  
-
----
-
 ## 🤝 Contribuição  
 
 Contribuições são bem-vindas!
