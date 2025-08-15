@@ -6,7 +6,7 @@ O objetivo é servir como uma base para quem deseja criar **scripts automatizado
 
 ---
 
-## 📌 O que está incluído
+## 📌 O que está incluído  
 
 | Área de Automação | Ferramentas Utilizadas |
 |-------------------|------------------------|
@@ -18,66 +18,75 @@ O objetivo é servir como uma base para quem deseja criar **scripts automatizado
 
 ---
 
-## 🧰 Pré-requisitos
+## 🧰 Pré-requisitos  
 
 - ✅ Python 3.10 ou superior instalado  
-- ✅ Git instalado  
-- ✅ (Opcional, recomendado) Ambiente virtual configurado:
+- ✅ Git instalado    
+- ✅ (Opcional, recomendado) Ambiente virtual configurado:  
 
 ```bash
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# Linux/Mac
-source venv/bin/activate
+python -m venv venv  
+# Windows  
+venv\Scripts\activate  
+# Linux/Mac  
+source venv/bin/activate  
 
-## 🚀 Como Executar o Projeto
-# 1 - Clonar o repositório
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+## 🚀 Como Executar o Projeto  
+# 1 - Clonar o repositório  
+git clone https://github.com/seu-usuario/seu-repo.git  
+cd seu-repo  
 
-# 2 - Instalar dependências
-pip install -r requirements.txt
+# 2 - Instalar dependências  
+pip install -r requirements.txt  
 
-# 3 - Executar um exemplo de automação
-python src/exemplo_automacao.py
+# 3 - Executar um exemplo de automação  
+python src/exemplo_automacao.py  
+```
 
-## 📂 Estrutura do Projeto
-📦 python-automation
-├── 📁 src/                    # Scripts de automação
-│   ├── selenium_example.py
-│   ├── excel_automation.py
-│   ├── api_automation.py
-│   └── ...
-├── 📁 resources/              # Arquivos utilizados nos exemplos
-├── requirements.txt
-└── README.md
+---
+
+## 📂 Estrutura do Projeto  
+
+📦 python-automation  
+├── 📁 src/                    # Scripts de automação  
+│   ├── selenium_example.py  
+│   ├── excel_automation.py  
+│   ├── api_automation.py  
+│   └── ...  
+├── 📁 resources/              # Arquivos utilizados nos exemplos  
+├── requirements.txt  
+└── README.md  
+
+---
 
 ## 💡 Boas Práticas
 
-✅ Separe cada tipo de automação em um script diferente
+✅ Separe cada tipo de automação em um script diferente  
+⚠️ NUNCA coloque senhas diretamente no código → use variáveis de ambiente  
+➕ Adicione logs (logging) para facilitar o debug das automações  
+🧪 Crie testes automatizados para validar as rotinas mais críticas  
+🔁 Para tarefas recorrentes, utilize APScheduler ou configure um cron job  
+⛔ Evite usar time.sleep() → prefira waits inteligentes (ex. WebDriverWait)  
 
-⚠️ NUNCA coloque senhas diretamente no código → use variáveis de ambiente
+---
 
-➕ Adicione logs (logging) para facilitar o debug das automações
+## ✅ Sugestões de Evolução  
 
-🧪 Crie testes automatizados para validar as rotinas mais críticas
+Feature	Status  
+Docker para execução isolada	🔧 Em andamento  
+Integração com CI/CD	🔧 Em andamento  
+Notificações via Slack/Teams em caso de erro	✅ Disponível  
+Execução paralela de scripts	🔧 Em estudo  
 
-🔁 Para tarefas recorrentes, utilize APScheduler ou configure um cron job
+---
 
-⛔ Evite usar time.sleep() → prefira waits inteligentes (ex. WebDriverWait)
-
-## ✅ Sugestões de Evolução
-Feature	Status
-Docker para execução isolada	🔧 Em andamento
-Integração com CI/CD	🔧 Em andamento
-Notificações via Slack/Teams em caso de erro	✅ Disponível
-Execução paralela de scripts	🔧 Em estudo
-🤝 Contribuição
+## 🤝 Contribuição  
 
 Contribuições são bem-vindas!
 Abra uma Issue ou envie um Pull Request com sugestões, correções ou melhorias 🌟
 
-## 📄 Licença
+---
+
+## 📄 Licença  
 
 Este projeto está sob a licença MIT.
