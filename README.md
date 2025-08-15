@@ -1,12 +1,83 @@
-# Estrutura base de automação de testes com Behave e Python
+# ⚙️ Automação com Python
 
-# Pré-requisitos:
-- Instalar Python 3.5+
+Este repositório contém exemplos práticos de automação utilizando **Python**, com foco em tarefas repetitivas do dia a dia como acesso à web, manipulação de arquivos, geração de relatórios e integração com APIs.
 
-- Instalar alguma IDE ou editor de texto para desenvolvimento como PyCharm
+O objetivo é servir como uma base para quem deseja criar **scripts automatizados**, melhorar a produtividade e padronizar processos.
 
-- Instalar dependências executando na raiz do projeto: pip install -r requirements.txt
+---
 
-# Execução dos testes:
+## 📌 O que está incluído
 
-- Pelo terminal, executar na raiz do projeto o comando: behave
+| Área de Automação | Ferramentas Utilizadas |
+|-------------------|------------------------|
+| Navegação web e preenchimento automático | Selenium / Requests |
+| Manipulação de planilhas | Pandas / OpenPyXL |
+| Geração de relatórios | Pandas / ReportLab |
+| Agendamento de tarefas | Cron (Linux) / Agendador do Windows / APScheduler |
+| Integração com APIs | Requests / JSON |
+
+---
+
+## 🧰 Pré-requisitos
+
+- ✅ Python 3.10 ou superior instalado  
+- ✅ Git instalado  
+- ✅ (Opcional, recomendado) Ambiente virtual configurado:
+
+```bash
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
+
+## 🚀 Como Executar o Projeto
+# 1 - Clonar o repositório
+git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo
+
+# 2 - Instalar dependências
+pip install -r requirements.txt
+
+# 3 - Executar um exemplo de automação
+python src/exemplo_automacao.py
+
+## 📂 Estrutura do Projeto
+📦 python-automation
+├── 📁 src/                    # Scripts de automação
+│   ├── selenium_example.py
+│   ├── excel_automation.py
+│   ├── api_automation.py
+│   └── ...
+├── 📁 resources/              # Arquivos utilizados nos exemplos
+├── requirements.txt
+└── README.md
+
+## 💡 Boas Práticas
+
+✅ Separe cada tipo de automação em um script diferente
+
+⚠️ NUNCA coloque senhas diretamente no código → use variáveis de ambiente
+
+➕ Adicione logs (logging) para facilitar o debug das automações
+
+🧪 Crie testes automatizados para validar as rotinas mais críticas
+
+🔁 Para tarefas recorrentes, utilize APScheduler ou configure um cron job
+
+⛔ Evite usar time.sleep() → prefira waits inteligentes (ex. WebDriverWait)
+
+## ✅ Sugestões de Evolução
+Feature	Status
+Docker para execução isolada	🔧 Em andamento
+Integração com CI/CD	🔧 Em andamento
+Notificações via Slack/Teams em caso de erro	✅ Disponível
+Execução paralela de scripts	🔧 Em estudo
+🤝 Contribuição
+
+Contribuições são bem-vindas!
+Abra uma Issue ou envie um Pull Request com sugestões, correções ou melhorias 🌟
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
