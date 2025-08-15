@@ -20,10 +20,9 @@ O objetivo é servir como uma base para quem deseja criar **scripts automatizado
 
 ## 🧰 Pré-requisitos  
 
-- ✅ Python 3.10 ou superior instalado  
-- ✅ Git instalado    
+- ✅ Python 3.10 ou superior instalado;  
+- ✅ Git instalado;    
 - ✅ (Opcional, recomendado) Ambiente virtual configurado:  
-
 ```bash
 python -m venv venv  
 # Windows  
@@ -63,12 +62,12 @@ python src/exemplo_automacao.py
 
 ## 💡 Boas Práticas
 
-✅ Separe cada tipo de automação em um script diferente  
-⚠️ NUNCA coloque senhas diretamente no código → use variáveis de ambiente  
-➕ Adicione logs (logging) para facilitar o debug das automações  
-🧪 Crie testes automatizados para validar as rotinas mais críticas  
-🔁 Para tarefas recorrentes, utilize APScheduler ou configure um cron job  
-⛔ Evite usar time.sleep() → prefira waits inteligentes (ex. WebDriverWait)  
+✅ Separe cada tipo de automação em um script diferente;  
+⚠️ NUNCA coloque senhas diretamente no código → use variáveis de ambiente;  
+➕ Adicione logs (logging) para facilitar o debug das automações;  
+🧪 Crie testes automatizados para validar as rotinas mais críticas;  
+🔁 Para tarefas recorrentes, utilize APScheduler ou configure um cron job;  
+⛔ Evite usar time.sleep() → prefira waits inteligentes (ex. WebDriverWait).  
 
 ---
 
