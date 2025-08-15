@@ -30,6 +30,9 @@ python -m venv venv
 venv\Scripts\activate  
 # Linux/Mac  
 source venv/bin/activate  
+```
+
+---
 
 ## 🚀 Como Executar o Projeto  
 # 1 - Clonar o repositório  
