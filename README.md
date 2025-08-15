@@ -72,10 +72,12 @@ python src/exemplo_automacao.py
 
 ---
 
-## 🤝 Contribuição  
+## 🤝 Boas práticas para contribuições:  
 
-Contribuições são bem-vindas!
-Abra uma Issue ou envie um Pull Request com sugestões, correções ou melhorias 🌟
+📌 Escreva código limpo, legível e documentado.  
+📌 Teste suas mudanças antes de enviar o Pull Request.  
+📌 Mantenha a consistência com o estilo e padrões do projeto.  
+📌 Discuta melhorias ou dúvidas antes de implementar grandes mudanças.
 
 ---
 
