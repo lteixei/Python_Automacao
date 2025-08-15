@@ -23,13 +23,11 @@ O objetivo é servir como uma base para quem deseja criar **scripts automatizado
 - ✅ Python 3.10 ou superior instalado;  
 - ✅ Git instalado;    
 - ✅ (Opcional, recomendado) Ambiente virtual configurado:  
-```bash
 python -m venv venv  
-# Windows  
+### Windows  
 venv\Scripts\activate  
-# Linux/Mac  
+### Linux/Mac  
 source venv/bin/activate  
-```
 
 ---
 
