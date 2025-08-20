@@ -1,0 +1,3 @@
+Tela de login aberta
+Usuário: admin, Senha: errado
+Clique no botão de login

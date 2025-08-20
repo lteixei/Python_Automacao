@@ -1,0 +1,3 @@
+Tela de login aberta
+Usuário: admin, Senha: 1234
+Clique no botão de login
