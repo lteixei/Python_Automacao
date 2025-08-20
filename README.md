@@ -22,24 +22,29 @@ O objetivo é servir como uma base para quem deseja criar **scripts automatizado
 
 - ✅ Python 3.10 ou superior instalado;  
 - ✅ Git instalado;    
-- ✅ (Opcional, recomendado) Ambiente virtual configurado:  
-python -m venv venv  
-### Windows  
+- ✅ (Opcional, recomendado) Ambiente virtual configurado.
+
+---
+
+##  🔧 Criar Ambiente Virtual:
+- python -m venv venv  
+### 💻 Ativar Ambiente Virtual:
+- No Windows:  
 venv\Scripts\activate  
-### Linux/Mac  
+- Linux/Mac  
 source venv/bin/activate  
 
 ---
 
 ## 🚀 Como Executar o Projeto  
-1 - Clonar o repositório  
+### Clonar o repositório  
 git clone https://github.com/seu-usuario/seu-repo.git  
 cd seu-repo  
 
-2 - Instalar dependências  
+### Instalar dependências  
 pip install -r requirements.txt  
 
-3 - Executar um exemplo de automação  
+### Executar um exemplo de automação  
 python src/exemplo_automacao.py  
 
 ---
@@ -58,6 +63,13 @@ python src/exemplo_automacao.py
 
 ---
 
+## 🤝 Contribuição
+
+Contribuições são bem-vindas!  
+Abra uma Issue ou envie um Pull Request com melhorias, novos cenários ou exemplos de integração.
+
+---
+
 ## 💡 Boas Práticas
 
 ✅ Separe cada tipo de automação em um script diferente;  
@@ -65,19 +77,20 @@ python src/exemplo_automacao.py
 ➕ Adicione logs (logging) para facilitar o debug das automações;  
 🧪 Crie testes automatizados para validar as rotinas mais críticas;  
 🔁 Para tarefas recorrentes, utilize APScheduler ou configure um cron job;  
-⛔ Evite usar time.sleep() → prefira waits inteligentes (ex. WebDriverWait).  
+⛔ Evite usar time.sleep() → prefira waits inteligentes (ex. WebDriverWait). 
 
 ---
 
-## 🤝 Boas práticas para contribuições:  
+## 👩‍💻 Contato
 
-📌 Escreva código limpo, legível e documentado.  
-📌 Teste suas mudanças antes de enviar o Pull Request.  
-📌 Mantenha a consistência com o estilo e padrões do projeto.  
-📌 Discuta melhorias ou dúvidas antes de implementar grandes mudanças.
+- Informações	
+- Nome	Leonardo da Motta Teixeira  
+- Cargo	QA Engineer / Gestor / Tester-Sênior  
+- LinkedIn	www.linkedin.com/in/leonardo-da-motta-teixeira-3584734b  
+- E-mail	lteixei@hotmail.com  
 
 ---
 
-## 📄 Licença  
+## 📝 Licença
 
-Este projeto está sob a licença MIT.
+- Este projeto está licenciado sob a MIT License.
