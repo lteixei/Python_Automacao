@@ -1,2 +1,4 @@
-pytest
-allure-pytest
+selenium==4.4.3
+pytest==7.4.0
+allure-pytest==2.15.0
+pytest-bdd  # Se estiver usando BDD, como "Gherkin" para arquivos .feature
