@@ -9,13 +9,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 import time
 
-# Configuração do WebDriver com ChromeOptions
+# Configuração do WebDriver com ChromeOptions em modo headless
 @pytest.fixture(scope="function")
 def driver():
     chrome_options = Options()
+    chrome_options.add_argument("--headless")  # Ativa modo headless
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920x1080")
-    # chrome_options.add_argument("--headless")  # Remover comentário se quiser rodar sem abrir navegador
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     yield driver
@@ -33,7 +33,7 @@ def test_summernote(driver):
     editor.clear()
     editor.send_keys('LEONARDO')
 
-    # Seleciona tudo e aplica negrito + sublinhado
+    # Seleciona tudo e aplica negrito + sublinhado (Ctrl + A)
     ActionChains(driver).key_down('\ue009').send_keys('a').key_up('\ue009').perform()
 
     # Negrito

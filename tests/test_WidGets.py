@@ -8,18 +8,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 
-# Configuração do WebDriver com ChromeOptions
+# Configuração do WebDriver com ChromeOptions em modo headless
 @pytest.fixture(scope="function")
 def driver():
     chrome_options = Options()
+    chrome_options.add_argument("--headless")  # Ativa modo headless (sem UI)
     chrome_options.add_argument("--disable-gpu")
     chrome_options.add_argument("--window-size=1920x1080")
-    # Remover o modo headless para visualizar o navegador
-    # chrome_options.add_argument("--headless")  # Comentado ou removido para rodar com navegador visível
-    
+
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     yield driver
-    driver.quit()  # Fechar o navegador após cada teste
+    driver.quit()  # Fecha navegador após cada teste
 
 # ############################ ACCORDION #################
 def test_accordion(driver):
